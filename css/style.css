@@ -28,3 +28,42 @@ body {
     margin: 0 auto;
     padding: 0 25px;
 }
+
+.controls {
+    width: 220px;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 15px 0;
+}
+
+.color-picker {
+    width: 130px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.controls span {
+    display: block;
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    background-color: green;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+.controls button:hover {
+    background-color: rgb(15, 105, 15)
+}
