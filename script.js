@@ -17,5 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
         window.getSelection().addRange(range);
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
+        alert(`Copied Successfully: ${elColorCode.textContent} HEX`);
     });
 });
