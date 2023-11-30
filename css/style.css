@@ -8,6 +8,7 @@
 
 body {
     width: 100%;
+    min-width: 250px;
     height: auto;
     min-height: 100vh;
     background-color: #ffffff;
